@@ -20,5 +20,3 @@ function checkname(e){
 
 
 
-
-//quick tour of promises
