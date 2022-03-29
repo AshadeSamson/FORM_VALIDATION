@@ -13,46 +13,24 @@
     <header class="hd">
        <h1 class="heading">REGISTRATION PAGE</h1>
     </header>
-    <div class="box">
+    <section class="box">
       <form action="" class="box-f">
-        <fieldset>
-          <div class="box1">
             <label for="firstname">FIRSTNAME</label>
-            <br>
-            <input id="firstname" type="text" placeholder="enter your firstname">
-          </div>
-          <br>
-          <div class="box2">
+            <input id="firstname" type="text" required><br>
+
             <label for="lastname">LASTNAME</label>
-            <br>
-            <input id="lastname" type="text" placeholder="enter your lastname">
-          </div>
-          <br>
-          <div class="box3">
+            <input id="lastname" type="text" required><br>
+
             <label for="gender">GENDER</label>
-            <br>
             <select name="gender" id="gender">
               <option value="male">MALE</option>
               <option value="female">FEMALE</option>
-            </select>
-          </div>
-          <br>
-          <div class="box4">
-            <label for="question">FRONTEND OR BACKEND?</label>
-            <br>
-              <select name="technology" id="question">
-                <option value="frontend">FRONTEND</option>
-                <option value="backend">BACKEND</option>
-              </select>
-              <br>
-          </div>
-          <div class="box5">
+            </select><br>
+
             <input type="reset" value="CLEAR">
             <input type="submit" value="SUBMIT">
-          </div>
-        </fieldset>
       </form>
-    </div>
+    </section>
   </div>
 </body>
 </html>

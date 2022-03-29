@@ -1,25 +1,60 @@
-/*  this is the stylesheet for the verification homepage */
+/* global styles*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  background-image: url("images/pexels-rodrigo-souza-2531709.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #f7dfc6;
+
+}
+/* container */
 div.container {
-  width: 500px;
   margin: 100px auto 0;
 }
 
+/* header styles */
 .hd{
   text-align: center;
   border-style: solid;
   border-width: 5px;
   border-radius: 20px;
-  margin-bottom: 5px;
-  background-color: none;
+  margin-bottom: 25px;
+  line-height: .5em;
 }
 
-.box1 ,.box2 ,.box3, .box4 ,.box5{
-  padding: 15px;
+
+/* section styles */
+.box{
+  margin: 10px inherit 0;
   text-align: center;
+  
+
 }
 
-fieldset{
-  border-style: solid;
-  border-width: 5px;
-  border-radius: 20px;
+/* form styles */
+label{
+  display: block;
+  color: #f7dfc6;
+  margin: 10px auto 0;
+}
+
+input[type="submit"], input[type="reset"]{
+  display: inline-block;
+  margin: 25px 15px 0;
+  width: 7em;
+  height: 2em;
+}
+
+#firstname, #lastname{
+  width: 70%;
+  height: 2em;
+  border-radius: 5px;
 }
