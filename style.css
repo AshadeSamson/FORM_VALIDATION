@@ -51,6 +51,10 @@ label{
   font-weight: bold;
 }
 
+#gender{
+  background-color: #f7dfc6;
+}
+
 input[type="submit"], input[type="reset"]{
   display: inline-block;
   margin: 25px 15px 0;
