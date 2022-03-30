@@ -1,7 +1,7 @@
 // header background
 
 var header = document.querySelector('.hd');
-header.style.backgroundColor = "skyblue";
+header.style.backgroundColor = "#ff8206";
 
 // header text-manipulation
 var newtext = document.querySelector('.heading');
